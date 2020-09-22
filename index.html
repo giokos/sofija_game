@@ -5,16 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sofija Quiz</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
    
 
-    
-    <nav class="navbar navbar-light bg-light">
-        <a href="index.html">Sofija Quiz</a>
-    </nav>
+    <div class="main-holder">
+        <nav class="navbar navbar-light bg-light">
+            <a href="index.html" class="navbar-brand">Sofija Quiz</a>
+        </nav>
+        <button id="startBtn" class="btn btn-success">Start</button>
+    </div>
 
-
+    <div class="gameHolder">
+         <nav class="navbar navbar-dark bg-dark">
+             <a href="" class="navbar-brand">Sofija Quiz</a>
+        </nav>
+        <nav class="navbar navbar-light bg-light">
+            <h3 id="textPitanja">Koja zivotinja ima dugacak rep Koja zivotinja ima dugacak rep</h3>
+        </nav>
+        <div class="answersHolder">
+            <div class="option">Hello zirafa</div>
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
+        </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="question.js"></script>

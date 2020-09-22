@@ -9,7 +9,7 @@ class Question {
 
 
 const questions = [
-    new Question("Pitanje 1","nis",['Sarajevo','Beograd','Nis','Novi Sad'],'Nis'),
+    new Question("Koji je drugi najveci grad u Srbiji posle Beograda","nis",['Berlin','Beograd','Nis','Novi Sad'],'Novi Sad'),
     new Question("Pitanje 2","nis",['Sarajevo','Beograd','Nis','Novi Sad'],'Nis'),
     new Question("Pitanje 3","nis",['Sarajevo','Beograd','Nis','Novi Sad'],'Nis'),
     new Question("Pitanje 4","nis",['Sarajevo','Beograd','Nis','Novi Sad'],'Nis')
