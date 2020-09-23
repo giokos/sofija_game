@@ -1,10 +1,9 @@
 class Quiz {
     constructor(questions){
-       this.questions = questions;
+        this.questions = questions;
         this.score = 0;
         this.currentQuestionIndex = 0;
     }
-
     getCurrentQuestion(){
         let question = this.questions[this.currentQuestionIndex];
         let questionOptions = question.options;
@@ -30,7 +29,10 @@ class Quiz {
 
     update(){
         this.currentQuestionIndex++;
+    }
 
+    isEnd(){
+        return this.questions.length === this.currentQuestionIndex;
     }
 }
 

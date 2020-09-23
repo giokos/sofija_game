@@ -18,11 +18,11 @@ body {
     box-shadow: 0 0 8px white;
 }
 .gameHolder {
-   display: none;
+    display: none;
 }
- #textPitanja {
+#textPitanja {
     text-align: center;
-     width: 100%;
+    width: 100%;
 }
 .answersHolder {
     width: 100%;
@@ -56,3 +56,49 @@ body {
     background-image: url("img/error.png");
 
 }
+#points {
+
+    width: 37px;
+    height: 33px;
+    margin-top: 18px;
+    box-shadow: 0 0 8px white;
+    overflow: hidden;
+}
+
+
+.the-end {
+    width: 100vw;
+    height: 100vh;
+
+    display: none;
+}
+.display-points {
+    width: 100vw;
+    height: 100vh;
+    line-height: 100vh;
+    font-size: 200px;
+    text-align: center;
+    color: tomato;
+    text-shadow: 1px 1px 8px gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
