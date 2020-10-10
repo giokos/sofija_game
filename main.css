@@ -3,7 +3,7 @@ body {
 }
 .main-holder {
     height: 100vh;
-    background-image: url(img/slice1.png);
+    background-image: url(img/Background.jpg);
     background-size: cover;
 }
 .navbar-light {

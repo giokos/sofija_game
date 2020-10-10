@@ -9,10 +9,18 @@ class Question {
 
 
 const questions = [
-    new Question("Koji je drugi najveci grad u Srbiji posle Beograda ?","nis",['Berlin','Beograd','Nis','Novi Sad'],'Novi Sad'),
-    new Question("Izbaci uljeza","nis",['Kokoska','Pingvin','Noj','Orao'],'Orao'),
-    new Question("Koliko hobotnica ima pipaka ?","nis",['8','4','6','3'],'8'),
-    new Question("Najveca zivotinja na svetu je ?","nis",['Kit','Slon','Medved','Krokodil'],'Kit'),
-    new Question("Kako se zvala plava riba iz crtanog Nemo","nis",['Klara','Dora','Mery','Sara'],'Dora'),
-    new Question("Sofija ide kod ujaka, on je","nis",['Mamin brat','Tatin brat','Mamina sestra','Tatina sestra'],'Mamin brat'),
+    new Question("Koliko je tata visok ?","nis",['174cm','180cm','184cm','192cm'],'184cm'),
+    new Question("Tata zivi u ?","nis",['Sarajevu','Mostaru','Podgorici','Beogradu'],'Sarajevu'),
+    new Question("Boja tatinog auta je ? ","nis",['Crvena','Crna','Plava','Bela'],'Crna'),
+    new Question("Od zivotinja tata najvise voli ?","nis",['Macke','Pse','Delfine','Krokodile'],'Macke'),
+    new Question("Koji instrument svira tata ?","nis",['Elektricnu gitaru','Akusticnu gitaru','Klavir','Saksofon'],'Elektricnu gitaru'),
+    new Question("Kako se zove Sofijina najmladja sestra ?","nis",['Lana','Maja','Lara','Lena'],'Lana'),
+    new Question("Tata predaje ?","nis",['Programiranje','Matematiku','Srpski','Fizicko'],'Programiranje'),
+    new Question("Tata je tezak ?","nis",['83kg','89kg','94kg','99kg'],'94kg'),
+    new Question("Tata pije ?","nis",['Koka-kolu','Pivo','Rakiju','Mleko'],'Koka-kolu'),
+    new Question("Koju nogu je tata slomio ?","nis",['Levu','Desnu','Obe','Nijednu'],'Levu'),
+    new Question("Tata najvise voli","nis",['Zimu','Jesen','Prolece','Leto'],'Zimu'),
+    new Question("Kako se zvala macka u tatinom stanu","nis",['Marla','Maka','Mirla','Murla'],'Marla'),
+    new Question("Tata se rodio u kom gradu ?","nis",['Majdanpeku','Beogradu','Baru','Berane'],'Majdanpeku'),
+    new Question("Tata voli Sofiju ?","nis",['Malo','Puno','Do sunca','Beskonacno'],'Beskonacno'),
 ];
