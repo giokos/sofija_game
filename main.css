@@ -3,11 +3,11 @@ body {
 }
 .main-holder {
     height: 100vh;
-    background-image: url(img/Background.jpg);
+    background-image: url(img/soka.jpg);
     background-size: cover;
 }
 .navbar-light {
-    opacity: .8;
+    opacity: 0.8;
 }
 .main-holder .btn {
     width: 50vw;
@@ -52,19 +52,16 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    opacity: .4;
+    opacity: 0.4;
     background-image: url("img/error.png");
-
 }
 #points {
-
     width: 37px;
     height: 33px;
     margin-top: 18px;
     box-shadow: 0 0 8px white;
     overflow: hidden;
 }
-
 
 .the-end {
     width: 100vw;
@@ -81,24 +78,3 @@ body {
     color: tomato;
     text-shadow: 1px 1px 8px gold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

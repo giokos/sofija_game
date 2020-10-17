@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/86bdb84c/
+#points	main.css	/^#points {$/;"	i
+#textPitanja	main.css	/^#textPitanja {$/;"	i
+.answersHolder	main.css	/^.answersHolder {$/;"	c
+.display-points	main.css	/^.display-points {$/;"	c
+.error	main.css	/^.error {$/;"	c
+.gameHolder	main.css	/^.gameHolder {$/;"	c
+.main-holder	main.css	/^.main-holder {$/;"	c
+.main-holder .btn	main.css	/^.main-holder .btn {$/;"	c
+.navbar-light	main.css	/^.navbar-light {$/;"	c
+.option	main.css	/^.option {$/;"	c
+.the-end	main.css	/^.the-end {$/;"	c
+AnonymousFunctionb43910f50100	main.js	/^$("#startBtn").on("click", function () {$/;"	f
+AnonymousFunctionb43910f50200	main.js	/^    $('.main-holder').fadeOut(600, function () {$/;"	f
+AnonymousFunctionb43910f50300	main.js	/^        $('.gameHolder').fadeOut(500,function(){$/;"	f
+AnonymousFunctionb43910f50400	main.js	/^            },400,function(){$/;"	f
+AnonymousFunctionb43910f50500	main.js	/^        setTimeout(function () {$/;"	f	function:checkAnswer
+Koja zivotinja ima dugacak rep Koja zivotinja ima dugacak rep	index.html	/^            <h3 id="textPitanja">Koja zivotinja ima dugacak rep Koja zivotinja ima dugacak rep<\//;"	j
+Question	question.js	/^class Question {$/;"	c
+Quiz	quiz.js	/^class Quiz {$/;"	c
+answersHolder	main.js	/^        let answersHolder = $(".answersHolder");$/;"	v
+body	main.css	/^body {$/;"	s
+checkAnswer	main.js	/^function checkAnswer() {$/;"	f
+checkAnswer	quiz.js	/^    checkAnswer(answer){$/;"	m	class:Quiz
+constructor	question.js	/^    constructor(text,img,options,answer){$/;"	m	class:Question
+constructor	quiz.js	/^    constructor(questions){$/;"	m	class:Quiz
+currentQuestion	main.js	/^        let currentQuestion = quiz.getCurrentQuestion();$/;"	v
+displayEnd	main.js	/^function displayEnd(){$/;"	f
+error_sound	index.html	/^   <audio id="error_sound" src="sound\/error_sound.m4a"><\/audio>$/;"	I
+gameHolder	main.js	/^        let gameHolder = $(".gameHolder");$/;"	v
+getCurrentQuestion	quiz.js	/^    getCurrentQuestion(){$/;"	m	class:Quiz
+isEnd	quiz.js	/^    isEnd(){$/;"	m	class:Quiz
+option	main.js	/^            const option = options[i];$/;"	C
+options	main.js	/^        let options = $(".option")$/;"	v
+points	index.html	/^                    <button id="points" class="btn btn-sm btn-danger">0<\/button>$/;"	I
+questions	question.js	/^const questions = [$/;"	C
+quiz	quiz.js	/^const quiz = new Quiz(questions);$/;"	C
+startBtn	index.html	/^        <button id="startBtn" class="btn btn-success">Start<\/button>$/;"	I
+textPitanja	index.html	/^            <h3 id="textPitanja">Koja zivotinja ima dugacak rep Koja zivotinja ima dugacak rep<\//;"	I
+textPitanja	main.js	/^        let textPitanja = $("#textPitanja")$/;"	v
+update	quiz.js	/^    update(){$/;"	m	class:Quiz
+win_sound	index.html	/^   <audio id="win_sound" src="sound\/win_sound.m4a"><\/audio>$/;"	I
